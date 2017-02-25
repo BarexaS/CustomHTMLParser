@@ -1,9 +1,9 @@
-package pharser;
+package parser;
 
-import pharser.tools.HtmlCleaner;
-import pharser.tools.HtmlCleanerImpl;
-import pharser.tools.PageReader;
-import pharser.tools.PageReaderImpl;
+import parser.tools.HtmlCleaner;
+import parser.tools.HtmlCleanerImpl;
+import parser.tools.PageReader;
+import parser.tools.PageReaderImpl;
 
 import java.io.BufferedReader;
 import java.io.IOException;

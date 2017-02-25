@@ -1,4 +1,4 @@
-package pharser.tools;
+package parser.tools;
 
 public class HtmlCleanerImpl implements HtmlCleaner{
     @Override

@@ -1,4 +1,4 @@
-package pharser.tools;
+package parser.tools;
 
 /**
  * Class {@code HtmlCleaner} suppose to clean {@code String} from HTML tags.

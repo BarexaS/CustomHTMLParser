@@ -1,5 +1,10 @@
 package pharser;
 
+import pharser.tools.HtmlCleaner;
+import pharser.tools.HtmlCleanerImpl;
+import pharser.tools.PageReader;
+import pharser.tools.PageReaderImpl;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

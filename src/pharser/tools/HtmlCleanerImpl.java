@@ -1,6 +1,4 @@
-package pharser;
-
-import java.util.List;
+package pharser.tools;
 
 public class HtmlCleanerImpl implements HtmlCleaner{
     @Override

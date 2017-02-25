@@ -1,4 +1,4 @@
-package pharser;
+package pharser.tools;
 
 import java.io.BufferedReader;
 import java.io.IOException;

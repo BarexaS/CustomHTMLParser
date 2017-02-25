@@ -1,4 +1,4 @@
-package pharser;
+package pharser.tools;
 
 /**
  * Class {@code PageReader} suppose to download html-page

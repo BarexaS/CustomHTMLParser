@@ -9,7 +9,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
-import java.util.regex.Pattern;
+
+import static parser.tools.WordsCollector.collectingWords;
 
 
 public class Main {
@@ -38,22 +39,6 @@ public class Main {
 
         System.out.println("Total amount of words - "+amount);
         System.out.println(forsort);
-    }
-
-    private static HashMap<String, Integer> collectingWords(String text) {
-        HashMap<String, Integer> list = new HashMap<>();
-        String[] words = text.split("[- ,;:.!?\\s]+");
-        Pattern p = Pattern.compile("\\p{Punct}");
-        for (String word : words) {
-            if (word.matches("\\D+") && !p.matcher(word).find()) {
-                if (list.containsKey(word)) {
-                    list.put(word, (list.get(word) + 1));
-                } else {
-                    list.put(word, 1);
-                }
-            }
-        }
-        return list;
     }
 
     private static String retrieveURL() {
